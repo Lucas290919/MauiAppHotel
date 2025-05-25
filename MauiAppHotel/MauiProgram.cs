@@ -13,6 +13,11 @@ namespace MauiAppHotel
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("DancingScript-VariableFont_wght.ttf", "DancigScript");
+                    fonts.AddFont("DancingScript-Bold.ttf", "DancigScriptBold");
+                    fonts.AddFont("DancingScript-Medium.ttf", "DancigScriptMedium");
+                    fonts.AddFont("DancingScript-Regular.ttf", "DancigScriptRegular");
+                    fonts.AddFont("DancingScript-SemiBold.ttf", "DancigScriptSemiBold");
                 });
 
 #if DEBUG
