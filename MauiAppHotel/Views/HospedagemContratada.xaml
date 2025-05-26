@@ -6,7 +6,7 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="{StaticResource White}">
     
-    <VerticalStackLayout VerticalOptions="CenterAndExpand">
+    <VerticalStackLayout VerticalOptions="CenterAndExpand" BackgroundColor="White">
 
         <Label Text="Suíte super luxo" 
                TextColor="{StaticResource Tertiary}"
