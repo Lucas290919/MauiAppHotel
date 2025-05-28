@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+
+    <VerticalStackLayout VerticalOptions="StartAndExpand" Padding="10" BackgroundColor="{StaticResource White}">
+        <Label Text="Olá, aqui estão algumas informações sobre o site:" TextColor="{StaticResource Tertiary}" FontFamily="DancigScriptRegular"
+FontSize="50"/>
+        <HorizontalStackLayout>
+        <Label Text="Desenvolvedor: " 
+                   TextColor="{StaticResource SecondaryDarkText}" 
+                   FontFamily="DancigScriptRegular"
+                   FontSize="20"/>
+            <Label Text=" Lucas Veneroso" 
+           TextColor="{StaticResource Tertiary}" 
+           FontFamily="DancigScriptRegular"
+           FontSize="20"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Colaboradores: " 
+           TextColor="{StaticResource SecondaryDarkText}" 
+           FontFamily="DancigScriptRegular"
+           FontSize="20"/>
+            <Label Text=" Etec Martin Luther King" 
+   TextColor="{StaticResource Tertiary}" 
+   FontFamily="DancigScriptRegular"
+   FontSize="20"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Data de desenvolvimento: " 
+           TextColor="{StaticResource SecondaryDarkText}" 
+           FontFamily="DancigScriptRegular"
+           FontSize="20"/>
+            <Label Text=" 25/05/2025" 
+   TextColor="{StaticResource Tertiary}" 
+   FontFamily="DancigScriptRegular"
+   FontSize="20"/>
+        </HorizontalStackLayout>
+        <Label Text="Motivos: Facilitar a contratação de hospedagem do hotel de forma fácil e simplificada para que não haja problemas na hospedagem."
+            LineBreakMode="WordWrap"
+           TextColor="{StaticResource Tertiary}" 
+           FontFamily="DancigScriptRegular"
+           FontSize="20"/>
+    </VerticalStackLayout>
+</ContentPage>
